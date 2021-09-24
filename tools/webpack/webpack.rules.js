@@ -23,8 +23,13 @@ module.exports = [
       loader: 'ts-loader',
       options: {
         transpileOnly: true,
+        appendTsSuffixTo: [/\.vue$/],
       },
     },
+  },
+  {
+    test: /\.vue$/,
+    use: 'vue-loader',
   },
   {
     // CSS Loader
