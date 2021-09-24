@@ -8,7 +8,7 @@
       <div>
         Minimal boilerplate for rapid development of Desktop Applications.
         <br />
-        This project makes use of Electron, React, Typescript, Webpack to serve
+        This project makes use of Electron, Vue, Typescript, Webpack to serve
         the best environment for development with hot-reloading of modules and
         styles.
       </div>

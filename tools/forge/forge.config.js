@@ -62,7 +62,7 @@ module.exports = {
           entryPoints: [
             {
               // React Hot Module Replacement (HMR)
-              rhmr: 'react-hot-loader/patch',
+              // rhmr: 'react-hot-loader/patch',
               // HTML index file template
               html: path.join(rootDir, 'src/index.html'),
               // Renderer
