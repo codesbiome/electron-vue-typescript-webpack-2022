@@ -14,7 +14,7 @@ const createWindow = (): void => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    backgroundColor: '#171b21',
+    backgroundColor: '#0e141a',
     show: false,
     autoHideMenuBar: true,
     webPreferences: {
