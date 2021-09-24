@@ -14,10 +14,10 @@
       </div>
     </div>
     <div class="versions center">
-      <span> EVTW <span id="evtw-version"></span> </span>
-      <span> Electron <span id="electron-version"></span> </span>
-      <span> Chrome <span id="chrome-version"></span> </span>
-      <span> Node <span id="node-version"></span> </span>
+      <span>EVTW <span id="evtw-version" /></span>
+      <span>Electron <span id="electron-version" /></span>
+      <span>Chrome <span id="chrome-version" /></span>
+      <span>Node <span id="node-version" /></span>
     </div>
     <p class="main-teaser small center">
       Click below button(s) to update the application &quot;counter&quot; state.

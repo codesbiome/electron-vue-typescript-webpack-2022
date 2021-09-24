@@ -9,7 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "eslint --ext .ts ."
+    "lint": "eslint src/ --ext .ts,.js,.tsx,.jsx,.vue"
   },
   "keywords": [
     "electron boilerplate",
@@ -58,6 +58,7 @@
     "eslint": "^7.32.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-vue": "^7.18.0",
     "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "^6.3.3",
     "less": "^4.1.1",
