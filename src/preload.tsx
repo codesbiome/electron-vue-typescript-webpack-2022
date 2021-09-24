@@ -1,5 +1,5 @@
 // Say something
-console.log('[ERWT] : Preload execution started');
+console.log('[EVTW] : Preload execution started');
 
 // Get versions
 window.addEventListener('DOMContentLoaded', () => {
@@ -9,9 +9,9 @@ window.addEventListener('DOMContentLoaded', () => {
   };
 
   // Packages version
-  for (const type of ['chrome', 'node', 'electron', 'erwt']) {
+  for (const type of ['chrome', 'node', 'electron', 'evtw']) {
     const version =
-      type == 'erwt'
+      type == 'evtw'
         ? process.env['npm_package_version']
         : process.versions[type];
 

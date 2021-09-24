@@ -8,7 +8,7 @@ module.exports = {
     // Create asar archive for main, renderer process files
     asar: true,
     // Set executable name
-    executableName: 'ERWT Boilerplate',
+    executableName: 'EVTW Boilerplate',
     // Set application copyright
     appCopyright: 'Copyright (C) 2021 Codesbiome, Guasam',
   },
@@ -61,8 +61,6 @@ module.exports = {
           // Entrypoints of the application
           entryPoints: [
             {
-              // React Hot Module Replacement (HMR)
-              // rhmr: 'react-hot-loader/patch',
               // HTML index file template
               html: path.join(rootDir, 'src/index.html'),
               // Renderer
