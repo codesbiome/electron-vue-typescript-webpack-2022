@@ -12,7 +12,7 @@ EVTW is a minimal boilerplate for writing Desktop Applications using [Electron](
 
 - 🌟 Electron
 - 🌀 TypeScript
-- ✌🏻 Vue
+- ✌🏻 &nbsp;Vue
 - 🛶 LESS Loader
 - 🎨 CSS Loader
 - 📸 Image Loader
